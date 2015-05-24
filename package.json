@@ -1,0 +1,40 @@
+{
+  "name": "pgschema-deletecascade",
+  "version": "0.0.0",
+  "description": "uses a pgschematojson object to build a cascade delete batch query for any row",
+  "main": "index.js",
+  "bin": {},
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pgschematojson": "0.0.1",
+    "tape": "~4.0.0"
+  },
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/soldair/pgschema-deletecascade.git"
+  },
+  "homepage": "https://github.com/soldair/pgschema-deletecascade",
+  "keywords": [
+    "pg",
+    "postgres",
+    "database",
+    "delete",
+    "cascade"
+  ],
+  "author": {
+    "name": "Ryan Day",
+    "email": "soldair@gmail.com",
+    "url": "https://github.com/soldair"
+  },
+  "license": "MIT",
+  "engine": {
+    "node": ">=0.6"
+  }
+}
